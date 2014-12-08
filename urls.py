@@ -6,5 +6,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'myguestbook.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^$/', 'guestbook.views.home', name = 'home'),
+    url(r'^$', 'guestbookapp.views.home', name = 'home' ),
 )
